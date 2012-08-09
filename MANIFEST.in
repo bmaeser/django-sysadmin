@@ -1,2 +1,2 @@
 include README.rst LICENSE
-recursive-include sysadmin/postfix/sql-scripts *
+recursive-include sample-config *
