@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sysadmin
+import django_sysadmin
 import os
 from setuptools import setup, find_packages
 
@@ -9,14 +9,13 @@ from setuptools import setup, find_packages
 ## dependencies 
 install_requires = [
     'Django>=1.4.1',
-    'wsgiref>=0.1.2'
 ]
 
 packages = find_packages()
 
 setup(
     name='django-sysadmin',
-    version=sysadmin.__version__,
+    version=django_sysadmin.__version__,
     author='Bernhard Maeser',
     author_email='bernhard.maeser@gmail.com',
     url='https://github.com/bmaeser/django-sysadmin',
