@@ -9,6 +9,7 @@ from setuptools import setup, find_packages
 ## dependencies 
 install_requires = [
     'Django>=1.4.1',
+    'wsgiref==0.1.2',
 ]
 
 packages = find_packages()
