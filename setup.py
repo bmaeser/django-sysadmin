@@ -13,6 +13,7 @@ install_requires = [
 
 packages = find_packages()
 
+
 setup(
     name='django-sysadmin',
     version=django_sysadmin.__version__,
@@ -39,3 +40,4 @@ setup(
         'Programming Language :: Python :: 2.7',
     ),
 )
+

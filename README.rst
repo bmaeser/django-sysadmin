@@ -30,15 +30,15 @@ for virtual_mailbox_domains, virtual_mailbox_maps and virtual_alias_maps your po
 
 for mysql support ::
 
-    apt-get install postfix-mysql
+    $ apt-get install postfix-mysql
 
 or for postgresql support :: 
 
-    apt-get install postfix-pgsql
+    $ apt-get install postfix-pgsql
 
 sasl2 authentication against a database needs ::
 
-    apt-get install libsasl2-2 libsasl2-modules libsasl2-modules-sql
+    $ apt-get install libsasl2-2 libsasl2-modules libsasl2-modules-sql
 
 in sample-config you find some templates for your postfix configuration agains postgresql
 
