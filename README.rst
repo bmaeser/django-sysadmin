@@ -26,7 +26,7 @@ Postfix
 Dependencies
 ------------------
 
-for virtual_mailbox_domains, virtual_mailbox_maps and virtual_alias_maps your postfix configured to use your prefered database. on ubuntu the packages are:
+for virtual_mailbox_domains, virtual_mailbox_maps and virtual_alias_maps you need your postfix to be configured to use your prefered database. on ubuntu the necessary packages are:
 
 for mysql support ::
 
