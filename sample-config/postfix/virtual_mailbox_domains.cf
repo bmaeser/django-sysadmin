@@ -1,1 +1,5 @@
-## todo
+user            = YOURUSER
+password        = YOURPASSWORD
+dbname          = YOURDATABASE
+#hosts          = localhost
+query           = SELECT domain FROM virtual_mailbox_domains WHERE domain = '%s' AND active = '1';

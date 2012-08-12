@@ -1,1 +1,5 @@
-## todo 
+user            = YOURUSER
+password        = YOURPASSWORD
+dbname          = YOURDATABASE
+#hosts          = localhost
+query           = SELECT goto FROM virtual_aliases WHERE alias = '%s' AND active = '1';

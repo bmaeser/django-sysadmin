@@ -40,7 +40,7 @@ sasl2 authentication against a database needs ::
 
     $ apt-get install libsasl2-2 libsasl2-modules libsasl2-modules-sql
 
-in sample-config you find some templates for your postfix configuration agains postgresql
+in sample-config you find some templates for your postfix configuration against postgresql
 
 Usage
 ------------------

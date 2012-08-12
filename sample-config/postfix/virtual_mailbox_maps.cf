@@ -1,1 +1,5 @@
-## todo
+user            = YOURUSER
+password        = YOURPASSWORD
+dbname          = YOURDATABASE
+#hosts          = localhost
+query           = SELECT maildir FROM virtual_mailboxes WHERE mailbox='%u' AND domain='%d' AND active = '1';
