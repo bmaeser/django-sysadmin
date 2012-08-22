@@ -14,7 +14,7 @@ or checkout the latest version from github: ::
 
     $ git clone https://github.com/bmaeser/django-sysadmin.git
     $ cd django-sysadmin
-    $ python setup.py
+    $ python setup.py install
 
 *******
 Modules
