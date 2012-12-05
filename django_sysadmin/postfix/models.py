@@ -2,7 +2,7 @@ from django.db import models
 
 class VirtualMailboxDomain(models.Model):
     """
-    Model to handle virtual_mailbox_domains in 
+    Model to handle virtual_mailbox_domains in postfix
 
     see: http://www.postfix.org/postconf.5.html#virtual_mailbox_domains
     """
