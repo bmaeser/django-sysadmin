@@ -28,6 +28,8 @@ Dependencies
 
 for virtual_mailbox_domains, virtual_mailbox_maps and virtual_alias_maps you need your postfix to be configured to use your prefered database. on ubuntu the necessary packages are:
 
+WARNING: all passwords for sasl2 authentication are stored in PLAINTEXT.
+
 for mysql support ::
 
     $ apt-get install postfix-mysql

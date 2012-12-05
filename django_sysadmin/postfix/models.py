@@ -75,6 +75,8 @@ class Sasl2Auth(models.Model):
     this is usefull, if you have apps or other mtas that want to 
     relay email through this postfix-server
 
+    WARNING: this stores your users password in PLAINTEXT
+
     see: http://www.postfix.org/SASL_README.html#auxprop_sql
     """
 
