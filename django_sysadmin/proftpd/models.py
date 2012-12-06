@@ -31,4 +31,4 @@ class FTPUser(models.Model):
         verbose_name = 'FTP user'
 
 
-## todo: default uid/guid/homedir/shell in settings.py?
+## possible todo: default uid/guid/homedir/shell in settings.py?
